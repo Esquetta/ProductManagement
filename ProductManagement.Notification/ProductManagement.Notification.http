@@ -1,0 +1,6 @@
+@ProductManagement.Notification_HostAddress = http://localhost:5196
+
+GET {{ProductManagement.Notification_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
