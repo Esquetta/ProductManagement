@@ -17,7 +17,7 @@ namespace ProductManagement.API.Controllers
             var sendToUri = new Uri($"{RabbitMqConstants.RabbitMqUri}/{RabbitMqConstants.RegistrationServiceQueue}");
             var endPoint = await bus.GetSendEndpoint(sendToUri);
             await endPoint.Send<IProductRegistrationCommand>(product);
-            return Ok();
+            return Ok("Gönderdiğiniz ürün tarafımıza ulaşmış ve gerekli işlemler gerçekleştirilmiştir. İlginiz için teşekkür ederiz.");
         }
     }
 }

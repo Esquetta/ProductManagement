@@ -3,17 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement.API", "ProductManagement.API\ProductManagement.API.csproj", "{EFCE4EB1-896E-417E-8814-E660FD9B08FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductManagement.API", "ProductManagement.API\ProductManagement.API.csproj", "{EFCE4EB1-896E-417E-8814-E660FD9B08FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement.Facebook", "ProductManagement.Facebook\ProductManagement.Facebook.csproj", "{289C8D66-78F7-4544-8EBB-E72C7BF959AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductManagement.Facebook", "ProductManagement.Facebook\ProductManagement.Facebook.csproj", "{289C8D66-78F7-4544-8EBB-E72C7BF959AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement.Instagram", "ProductManagement.Instagram\ProductManagement.Instagram.csproj", "{71879A08-46B0-4C50-A7CB-9095E4159BDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductManagement.Instagram", "ProductManagement.Instagram\ProductManagement.Instagram.csproj", "{71879A08-46B0-4C50-A7CB-9095E4159BDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement.MessageContracts", "ProductManagement.MessageContracts\ProductManagement.MessageContracts.csproj", "{80AEEE2E-48ED-49BD-AF06-584DC4CB32F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductManagement.MessageContracts", "ProductManagement.MessageContracts\ProductManagement.MessageContracts.csproj", "{80AEEE2E-48ED-49BD-AF06-584DC4CB32F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement.Notification", "ProductManagement.Notification\ProductManagement.Notification.csproj", "{35CA5EEA-1CAE-4FE8-9ABD-0FF6F47ADC14}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement.Registration", "ProductManagement.Registration\ProductManagement.Registration.csproj", "{F8924DE6-F3B5-4E5B-8D13-EB39C415316E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductManagement.Registration", "ProductManagement.Registration\ProductManagement.Registration.csproj", "{F8924DE6-F3B5-4E5B-8D13-EB39C415316E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +35,6 @@ Global
 		{80AEEE2E-48ED-49BD-AF06-584DC4CB32F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80AEEE2E-48ED-49BD-AF06-584DC4CB32F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80AEEE2E-48ED-49BD-AF06-584DC4CB32F9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{35CA5EEA-1CAE-4FE8-9ABD-0FF6F47ADC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{35CA5EEA-1CAE-4FE8-9ABD-0FF6F47ADC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{35CA5EEA-1CAE-4FE8-9ABD-0FF6F47ADC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{35CA5EEA-1CAE-4FE8-9ABD-0FF6F47ADC14}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F8924DE6-F3B5-4E5B-8D13-EB39C415316E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F8924DE6-F3B5-4E5B-8D13-EB39C415316E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8924DE6-F3B5-4E5B-8D13-EB39C415316E}.Release|Any CPU.ActiveCfg = Release|Any CPU

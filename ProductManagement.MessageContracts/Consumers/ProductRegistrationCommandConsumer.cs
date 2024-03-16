@@ -1,5 +1,7 @@
 ﻿using MassTransit;
 using ProductManagement.MessageContracts.Commands;
+using ProductManagement.MessageContracts.Events;
+using ProductManagement.MessageContracts.Models;
 
 namespace ProductManagement.MessageContracts.Consumers
 {
@@ -12,6 +14,12 @@ namespace ProductManagement.MessageContracts.Consumers
             Console.WriteLine($"Facebook'ta yayınlanacaktır.");
             Console.WriteLine($"Instagram'da yayınlanacaktır.");
             Console.WriteLine("*********************");
+
+            await context.Publish<IProductEvent>(new Product
+            {
+                ProductName = context.Message.ProductName,
+                Quantity = context.Message.Quantity
+            });
         }
     }
 }
